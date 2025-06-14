@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="BaseButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+    <style name="NumButton" parent="BaseButtonStyle">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="OpButton" parent="BaseButtonStyle">
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <style name="FuncButton" parent="BaseButtonStyle">
+        <item name="android:textColor">#03A9F4</item>
+    </style>
+
+    <style name="EqualButton" parent="BaseButtonStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#FF5722</item>
+    </style>
+
+</resources>
